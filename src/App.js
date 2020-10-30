@@ -13,7 +13,7 @@ const App = () => {
   return <BrowserRouter > 
     <Navbar/>
     <Switch>
-      <Route exact path="/" component={Home} />
+      <Route exact path="/project-2/" component={Home} />
       <Route exact path="/forex" component={Forex} />
     </Switch>
   </BrowserRouter>
